@@ -22,13 +22,14 @@
     { "patterns": ["~/Music"], "icon": "", "decoration": "bold" },
     { "patterns": ["~/Repos"], "icon": "", "decoration": "bold" },
     { "patterns": ["~/VMs"], "icon": "", "decoration": "bold" },
+    { "patterns": ["~/Wallpapers"], "icon": "", "decoration": "bold" },
 
 
 
 
     {
       "patterns": ["*.iso", "*.img"],
-      "icon": "﫭",
+      "icon": "",
       "fg": "#fad56e"
     },
 
@@ -52,10 +53,10 @@
         "*.dot",
         "*.dotm",
         "*.dotx",
-        "*.odc"
+        "*.odt"
       ],
       "icon": "",
-      "fg": "#2b5798"
+      "fg": "#3d6cb2"
     },
     {
       "patterns": [
@@ -88,7 +89,7 @@
         "*.xlw"
       ],
       "icon": "",
-      "fg": "#207148"
+      "fg": "#25955c"
     },
 
     {
@@ -147,23 +148,34 @@
     {
       "patterns": [
         "*.mk",
-        "MAKEFILE",
-        "MakeFile",
-        "Makefile",
-        "makeFile",
-        "makefile"
+        "*MAKEFILE",
+        "*MakeFile",
+        "*Makefile",
+        "*makeFile",
+        "*makefile"
       ],
       "icon": "🔨"
     },
     {
-      "patterns": ["README", "README.md", "README.txt", "readme", "readme.txt", "readme.md"],
+      "patterns": [
+        "*README",
+        "*README.md",
+        "*README.txt",
+        "*readme",
+        "*readme.txt",
+        "*readme.md"
+      ],
       "icon": "",
-      "fg": "#519aba"
+      "lf_fg": "#519aba"
     },
     {
-      "patterns": ["LICENSE", "license", "License"],
-      "icon": "",
-      "fg": "#edd719"
+      "patterns": [
+        "*LICENSE",
+        "*license",
+        "*License"
+      ],
+      "icon": "",
+      "lf_fg": "#edd719"
     },
 
 
@@ -187,13 +199,13 @@
 
     {
       "patterns": ["*.h"],
-      "icon": "",
+      "icon": "",
       "fg": "#a074c4"
     },
 
     {
       "patterns": ["*.hh", "*.hpp"],
-      "icon": "",
+      "icon": "",
       "fg": "#a074c4"
     },
 
@@ -212,13 +224,13 @@
     {
       "patterns": ["*.css"],
       "icon": "",
-      "fg": "#214ce5"
+      "fg": "#3b60e5"
     },
     
     {
       "patterns": ["*.less"],
       "icon": "",
-      "fg": "#214ce5"
+      "fg": "#3b60e5"
     },
     
     {
