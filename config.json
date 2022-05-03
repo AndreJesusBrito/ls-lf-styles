@@ -1,0 +1,622 @@
+{
+  "output": "/home/andre/.config/sh/ls_lf_styles",
+  "data": [
+    {
+      "patterns": ["tw", "st", "ow", "dt", "di"],
+      "icon": "",
+      "fg": "#6e5309",
+      "bg": "#f5d170",
+      "lf_fg": "#f5d170",
+      "decoration": "bold"
+    },
+    { "patterns": ["fi"], "icon": "" },
+    { "patterns": ["ln"], "icon": "" },
+    { "patterns": ["or"], "icon": "" },
+    { "patterns": ["ex"], "icon": "" },
+
+
+
+    { "patterns": ["~"], "icon": ":", "decoration": "bold" },
+    { "patterns": ["~/Documents"], "icon": "", "decoration": "bold" },
+    { "patterns": ["~/Downloads"], "icon": "", "decoration": "bold" },
+    { "patterns": ["~/Music"], "icon": "", "decoration": "bold" },
+    { "patterns": ["~/Repos"], "icon": "", "decoration": "bold" },
+    { "patterns": ["~/VMs"], "icon": "", "decoration": "bold" },
+
+
+
+
+    {
+      "patterns": ["*.iso", "*.img"],
+      "icon": "﫭",
+      "fg": "#fad56e"
+    },
+
+    {
+      "patterns": ["*.mid", "*.midi"],
+      "icon": "🎹",
+      "fg": "#bfafbf"
+    },
+
+    {
+      "patterns": ["*.elm"],
+      "icon": "",
+      "fg": "#d83b01"
+    },
+
+    {
+      "patterns": [
+        "*.doc",
+        "*.docm",
+        "*.docx",
+        "*.dot",
+        "*.dotm",
+        "*.dotx",
+        "*.odc"
+      ],
+      "icon": "",
+      "fg": "#2b5798"
+    },
+    {
+      "patterns": [
+        "*.odp",
+        "*.pot",
+        "*.potm",
+        "*.potx",
+        "*.ppa",
+        "*.ppam",
+        "*.pps",
+        "*.ppsm",
+        "*.ppsx",
+        "*.ppt",
+        "*.pptm",
+        "*.pptx"
+      ],
+      "icon": "",
+      "fg": "#cd4825"
+    },
+    {
+      "patterns": [
+        "*.ods",
+        "*.sc",
+        "*.xla",
+        "*.xlam",
+        "*.xls",
+        "*.xlsb",
+        "*.xlsx",
+        "*.xlt",
+        "*.xlw"
+      ],
+      "icon": "",
+      "fg": "#207148"
+    },
+
+    {
+      "patterns": ["*.xspf"],
+      "icon": "",
+      "fg": "#23a9d3"
+    },
+
+
+    {
+      "patterns": ["*.nix"],
+      "icon": "",
+      "fg": "#23a9d3"
+    },
+
+    {
+      "patterns": ["*.orig"],
+      "icon": "🙏",
+      "fg": "#ff72da"
+    },
+    {
+      "patterns": ["*.rej"],
+      "icon": "",
+      "fg": "#df0a30"
+    },
+    {
+      "patterns": ["*.diff"],
+      "icon": "",
+      "fg": "#c1ffc1"
+    },
+
+    {
+      "patterns": ["*.psb", "*.psd"],
+      "icon": "",
+      "fg": "#31a8ff"
+    },
+    {
+      "patterns": ["*.ai"],
+      "icon": "",
+      "fg": "#ff9b00"
+    },
+    
+
+    {
+      "patterns": ["*.bak", "*.backup"],
+      "icon": "",
+      "fg": "#82e5ea"
+    },
+
+    {
+      "patterns": ["*.hist", "*.history"],
+      "icon": "",
+      "fg": "#eaaf37"
+    },
+
+    {
+      "patterns": [
+        "*.mk",
+        "MAKEFILE",
+        "MakeFile",
+        "Makefile",
+        "makeFile",
+        "makefile"
+      ],
+      "icon": "🔨"
+    },
+    {
+      "patterns": ["README", "README.md", "README.txt", "readme", "readme.txt", "readme.md"],
+      "icon": "",
+      "fg": "#519aba"
+    },
+    {
+      "patterns": ["LICENSE", "license", "License"],
+      "icon": "",
+      "fg": "#edd719"
+    },
+
+
+
+    {
+      "patterns": ["*.c"],
+      "icon": "",
+      "fg": "#519aba"
+    },
+
+    {
+      "patterns": [
+        "*.c++",
+        "*.cc",
+        "*.cp",
+        "*.cpp"
+      ],
+      "icon": "",
+      "fg": "#f34b7d"
+    },
+
+    {
+      "patterns": ["*.h"],
+      "icon": "",
+      "fg": "#a074c4"
+    },
+
+    {
+      "patterns": ["*.hh", "*.hpp"],
+      "icon": "",
+      "fg": "#a074c4"
+    },
+
+    {
+      "patterns": ["*.cs"],
+      "icon": "",
+      "fg": "#32862e"
+    },
+
+    {
+      "patterns": ["*.htm", "*.html", "*.xhtml"],
+      "icon": "",
+      "fg": "#f16524"
+    },
+    
+    {
+      "patterns": ["*.css"],
+      "icon": "",
+      "fg": "#214ce5"
+    },
+    
+    {
+      "patterns": ["*.less"],
+      "icon": "",
+      "fg": "#214ce5"
+    },
+    
+    {
+      "patterns": ["*.sass", "*.scss"],
+      "icon": "",
+      "fg": "#cf679a"
+    },
+
+
+    {
+      "patterns": ["*.java"],
+      "icon": "",
+      "fg": "#cc3e44"
+    },
+
+    {
+      "patterns": [
+        "*.cjs",
+        "*.js",
+        "*.mjs"
+      ],
+      "icon": "",
+      "fg": "#f0db4f"
+    },
+
+    {
+      "patterns": ["*.jsx", "*.tsx"],
+      "icon": "ﰆ",
+      "fg": "#61dafb"
+    },
+
+    {
+      "patterns": ["*.ts"],
+      "icon": "",
+      "fg": "#519aba"
+    },
+    {
+      "patterns": ["*.json"],
+      "icon": "",
+      "fg": "#f0db4f"
+    },
+
+    {
+      "patterns": ["*.lua"],
+      "icon": "",
+      "fg": "#4848ef"
+    },
+
+    {
+      "patterns": ["*.php"],
+      "icon": "",
+      "fg": "#777bb3"
+    },
+
+    {
+      "patterns": ["*.py"],
+      "icon": "",
+      "fg": "#366b98"
+    },
+
+    {
+      "patterns": [
+        "*.gemspec",
+        "*.rake",
+        "*.rb"
+      ],
+      "icon": "",
+      "fg": "#a91501"
+    },
+
+    {
+      "patterns": [
+        "*.swift",
+        "*.xcplayground"
+      ],
+      "icon": "",
+      "fg": "#fc933a"
+    },
+
+    {
+      "patterns": [
+        "*.rlib",
+        "*.rs"
+      ],
+      "icon": "",
+      "fg": "#6d8086"
+    },
+
+    {
+      "patterns": ["*.go"],
+      "icon": "ﳑ",
+      "fg": "#79d4fd"
+    },
+
+    {
+      "patterns": [
+        "*.erl",
+        "*.hrl"
+      ],
+      "icon": "",
+      "fg": "#a90533"
+    },
+
+    {
+      "patterns": [
+        "*.eex",
+        "*.ex",
+        "*.exs",
+        "*.heex",
+        "*.leex"
+      ],
+      "icon": "",
+      "fg": "#5d426f"
+    },
+
+    {
+      "patterns": [
+        "*.jl"
+      ],
+      "icon": "",
+      "fg": "#4c64b0"
+    },
+
+    {
+      "patterns": ["*.xml"],
+      "icon": "",
+      "fg": "#e37933"
+    },
+
+
+    {
+      "patterns": ["*.vim"],
+      "icon": "",
+      "fg": "#019833"
+    },
+
+    {
+      "patterns": [
+        "*.markdown",
+        "*.md",
+        "*.rmd"
+      ],
+      "icon": "",
+      "fg": "#08a1e5"
+    },
+
+    {
+      "patterns": [
+        "*.txt",
+        "*.tex"
+      ],
+      "icon": ""
+    },
+
+    {
+      "patterns": [
+        "*.a",
+        "*.app",
+        "*.bin",
+        "*.class",
+        "*.cmo",
+        "*.cmx",
+        "*.cma",
+        "*.cmxa",
+        "*.cmi",
+        "*.dll",
+        "*.exe",
+        "*.hl",
+        "*.ilk",
+        "*.lib",
+        "*.n",
+        "*.ndll",
+        "*.o",
+        "*.out",
+        "*.pyc",
+        "*.pyd",
+        "*.pyo",
+        "*.pdb",
+        "*.scpt",
+        "*.scptd",
+        "*.so"
+      ],
+      "icon": "",
+      "fg": "#c4003a"
+    },
+
+    {
+     "patterns":[
+       "*.7z",
+       "*.ace",
+       "*.alz",
+       "*.arc",
+       "*.arj",
+       "*.bz",
+       "*.bz2",
+       "*.cab",
+       "*.cpio",
+       "*.deb",
+       "*.dwm",
+       "*.dz",
+       "*.ear",
+       "*.esd",
+       "*.gz",
+       "*.jar",
+       "*.lha",
+       "*.lrz",
+       "*.lz",
+       "*.lz4",
+       "*.lzh",
+       "*.lzma",
+       "*.lzo",
+       "*.rar",
+       "*.rpm",
+       "*.rz",
+       "*.sar",
+       "*.swm",
+       "*.t7z",
+       "*.tar",
+       "*.taz",
+       "*.tbz",
+       "*.tbz2",
+       "*.tgz",
+       "*.tlz",
+       "*.txz",
+       "*.tz",
+       "*.tzo",
+       "*.tzst",
+       "*.war",
+       "*.wim",
+       "*.xz",
+       "*.z",
+       "*.zip",
+       "*.zoo",
+       "*.zst"
+     ],
+     "icon": "",
+     "bg": "#820eb4"
+    },
+
+
+    {
+      "patterns": [
+        "*.bmp",
+        "*.gif",
+        "*.jpeg",
+        "*.jpg",
+        "*.mjpeg",
+        "*.mjpg",
+        "*.mng",
+        "*.pbm",
+        "*.pcx",
+        "*.pgm",
+        "*.png",
+        "*.ppm",
+        "*.svg",
+        "*.svgz",
+        "*.tga",
+        "*.tif",
+        "*.tiff",
+        "*.webp",
+        "*.xbm",
+        "*.xpm"
+      ],
+      "icon": "",
+      "fg": "#1fdcb9"
+    },
+
+
+    {
+      "patterns": [
+        "*.asf",
+        "*.au",
+        "*.avi",
+        "*.flc",
+        "*.fli",
+        "*.flv",
+        "*.m2v",
+        "*.m4v",
+        "*.mkv",
+        "*.mov",
+        "*.mp4",
+        "*.mp4v",
+        "*.mpeg",
+        "*.mpg",
+        "*.nuv",
+        "*.ogm",
+        "*.ogv",
+        "*.ogx",
+        "*.qt",
+        "*.qt",
+        "*.rm",
+        "*.rmvb",
+        "*.vob",
+        "*.webm",
+        "*.wmv",
+        "*.yuv"
+      ],
+      "icon": "",
+      "fg": "#4a69ff"
+    },
+
+
+    {
+      "patterns": [
+        "*.flac",
+        "*.m4a",
+        "*.mka",
+        "*.mp3",
+        "*.mpc",
+        "*.oga",
+        "*.ogg",
+        "*.opus",
+        "*.wav",
+        "*.wma"
+      ],
+      "icon": "",
+      "fg": "#da2aef"
+    },
+
+
+    {
+      "patterns": [
+        "*.bash",
+        "*.bat",
+        "*.cmd",
+        "*.fish",
+        "*.ps1",
+        "*.sh",
+        "*.zsh"
+      ],
+      "icon": "",
+      "fg": "#1fdcb9"
+    },
+
+    {
+      "patterns": [
+        "*.djvu",
+        "*.epub",
+        "*.pdf"
+      ],
+      "icon": "",
+      "fg": "#d75460"
+    },
+
+    {
+      "patterns": [
+        "*.fnt",
+        "*.fon",
+        "*.oft",
+        "*.ttf",
+        "*.woff"
+      ],
+      "icon": "",
+      "fg": "#7a7a7a"
+    },
+
+    {
+      "patterns": [
+        "*.3dm",
+        "*.3ds",
+        "*.obj"
+      ],
+      "icon": "",
+      "fg": "#00b4d3"
+    },
+
+    {
+      "__comment": "game data",
+      "patterns": [
+        "*.b",
+        "*.dem",
+        "*.dl",
+        "*.gam",
+        "*.gba",
+        "*.gdi",
+        "*.n64",
+        "*.nes",
+        "*.rom",
+        "*.sav",
+        "*.v64",
+        "*.z64"
+      ],
+      "icon": "",
+      "fg": "#ea5969"
+    },
+
+    {
+      "patterns": [
+        "*.cf",
+        "*.cfg",
+        "*.cnf",
+        "*.conf",
+        "*.config",
+        "*.ini"
+      ],
+      "icon": "漣",
+      "fg": "#8a8a8a"
+    }
+
+  ]
+}
