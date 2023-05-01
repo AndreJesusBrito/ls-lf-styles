@@ -9,7 +9,7 @@
       "lf_fg": "#f5d170",
       "decoration": "bold"
     },
-    { "patterns": ["fi"], "icon": "" },
+    { "patterns": ["fi"], "icon": "" },
     { "patterns": ["ln"], "icon": "" },
     { "patterns": ["or"], "icon": "" },
     { "patterns": ["ex"], "icon": "" },
@@ -22,14 +22,14 @@
     { "patterns": ["~/Music"], "icon": "", "decoration": "bold" },
     { "patterns": ["~/Repos"], "icon": "", "decoration": "bold" },
     { "patterns": ["~/VMs"], "icon": "", "decoration": "bold" },
-    { "patterns": ["~/Wallpapers"], "icon": "", "decoration": "bold" },
+    { "patterns": ["~/Wallpapers"], "icon": "", "decoration": "bold" },
 
 
 
 
     {
       "patterns": ["*.iso", "*.img"],
-      "icon": "",
+      "icon": "󰋊",
       "fg": "#fad56e"
     },
 
@@ -37,12 +37,6 @@
       "patterns": ["*.mid", "*.midi"],
       "icon": "🎹",
       "fg": "#bfafbf"
-    },
-
-    {
-      "patterns": ["*.elm"],
-      "icon": "",
-      "fg": "#d83b01"
     },
 
     {
@@ -55,7 +49,7 @@
         "*.dotx",
         "*.odt"
       ],
-      "icon": "",
+      "icon": "󱀾",
       "fg": "#3d6cb2"
     },
     {
@@ -73,7 +67,7 @@
         "*.pptm",
         "*.pptx"
       ],
-      "icon": "",
+      "icon": "",
       "fg": "#cd4825"
     },
     {
@@ -88,13 +82,13 @@
         "*.xlt",
         "*.xlw"
       ],
-      "icon": "",
+      "icon": "",
       "fg": "#25955c"
     },
 
     {
       "patterns": ["*.xspf"],
-      "icon": "",
+      "icon": "󰼄",
       "fg": "#23a9d3"
     },
 
@@ -135,7 +129,7 @@
 
     {
       "patterns": ["*.bak", "*.backup"],
-      "icon": "",
+      "icon": "",
       "fg": "#82e5ea"
     },
 
@@ -144,6 +138,22 @@
       "icon": "",
       "fg": "#eaaf37"
     },
+
+    {
+      "patterns": [
+        "*PKGBUILD"
+      ],
+      "icon": "",
+      "lf_fg": "#1793d1"
+    },
+    {
+      "patterns": [
+        "*.deb"
+      ],
+      "icon": "",
+      "lf_fg": "#d70651"
+    },
+
 
     {
       "patterns": [
@@ -165,7 +175,7 @@
         "*readme.txt",
         "*readme.md"
       ],
-      "icon": "",
+      "icon": "",
       "lf_fg": "#519aba"
     },
     {
@@ -198,20 +208,14 @@
     },
 
     {
-      "patterns": ["*.h"],
-      "icon": "",
-      "fg": "#a074c4"
-    },
-
-    {
-      "patterns": ["*.hh", "*.hpp"],
+      "patterns": ["*.h", "*.hh", "*.hpp"],
       "icon": "",
       "fg": "#a074c4"
     },
 
     {
       "patterns": ["*.cs"],
-      "icon": "",
+      "icon": "󰌛",
       "fg": "#32862e"
     },
 
@@ -247,30 +251,64 @@
     },
 
     {
+      "patterns": ["*.nim"],
+      "icon": "",
+      "fg": "#ffe953"
+    },
+	{
+      "patterns": ["*.elm"],
+      "icon": "",
+      "fg": "#60B5CC"
+    },
+
+
+    {
       "patterns": [
         "*.cjs",
         "*.js",
         "*.mjs"
       ],
-      "icon": "",
+      "icon": "",
       "fg": "#f0db4f"
     },
 
     {
       "patterns": ["*.jsx", "*.tsx"],
-      "icon": "ﰆ",
+      "icon": "",
       "fg": "#61dafb"
     },
 
     {
+      "patterns": ["*.vue"],
+      "icon": "󰡄",
+      "fg": "#42b883"
+    },
+    {
+      "patterns": ["*.svelte"],
+      "icon": "",
+      "fg": "#ff3e00"
+    },
+
+    {
       "patterns": ["*.ts"],
-      "icon": "ﯤ",
+      "icon": "󰛦",
       "fg": "#519aba"
     },
     {
       "patterns": ["*.json"],
       "icon": "",
       "fg": "#f0db4f"
+    },
+
+    {
+      "patterns": ["*.wasm"],
+      "icon": "",
+      "fg": "#654ff0"
+    },
+    {
+      "patterns": ["*.wat"],
+      "icon": "",
+      "fg": "#e9891f"
     },
 
     {
@@ -316,12 +354,12 @@
         "*.rs"
       ],
       "icon": "",
-      "fg": "#6d8086"
+      "fg": "#dea584"
     },
 
     {
       "patterns": ["*.go"],
-      "icon": "ﳑ",
+      "icon": "",
       "fg": "#79d4fd"
     },
 
@@ -382,7 +420,7 @@
         "*.txt",
         "*.tex"
       ],
-      "icon": ""
+      "icon": ""
     },
 
     {
@@ -413,7 +451,7 @@
         "*.scptd",
         "*.so"
       ],
-      "icon": "",
+      "icon": "",
       "fg": "#c4003a"
     },
 
@@ -428,7 +466,6 @@
        "*.bz2",
        "*.cab",
        "*.cpio",
-       "*.deb",
        "*.dwm",
        "*.dz",
        "*.ear",
@@ -528,7 +565,7 @@
         "*.wmv",
         "*.yuv"
       ],
-      "icon": "",
+      "icon": "",
       "fg": "#4a69ff"
     },
 
@@ -561,7 +598,7 @@
         "*.sh",
         "*.zsh"
       ],
-      "icon": "",
+      "icon": "",
       "fg": "#1fdcb9"
     },
 
@@ -571,7 +608,7 @@
         "*.epub",
         "*.pdf"
       ],
-      "icon": "",
+      "icon": "",
       "fg": "#d75460"
     },
 
@@ -587,6 +624,15 @@
       "fg": "#7a7a7a"
     },
 
+    {
+      "patterns": [
+        "*.blend",
+        "*.blend1",
+        "*.blender"
+      ],
+      "icon": "󰂫",
+      "fg": "#ff7021"
+    },
     {
       "patterns": [
         "*.3dm",
@@ -626,8 +672,16 @@
         "*.config",
         "*.ini"
       ],
-      "icon": "漣",
+      "icon": "",
       "fg": "#8a8a8a"
+    },
+    {
+      "patterns": [
+        "**config",
+        "**rc"
+      ],
+      "icon": "",
+      "lf_fg": "#8a8a8a"
     }
 
   ]
